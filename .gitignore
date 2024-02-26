@@ -1,0 +1,8 @@
+x64
+.vs
+.venv
+outputs
+*.sln
+*.vcxproj*
+
+/earth-moon
