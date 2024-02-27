@@ -2,8 +2,8 @@
 #include <iostream>
 #include <filesystem>
 
-#include "Vector3d.h"
-#include "Gravity.h"
+#include "vectors.h"
+#include "gravity.h"
 
 template <size_t D>
 class VectorBuffer

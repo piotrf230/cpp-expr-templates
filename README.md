@@ -1,4 +1,14 @@
 # `C++` expression templates projects
+## Simple integration
+This program presents a way of using expression templates in order to provide a very readable way of creating and passing functional objects to functions performing mathematical equations.
+### Compilation and runing
+In order to compile the program using `make` and `g++` and run it, you need to execute the following commands:
+```bash
+make func-expr
+./func-expr
+```
+### Output interpretation
+The program calculates and outputs the integral of `f(x) = 2x^2 - 3x + 3` function from `0` to `3`, using Trapezoidal Rule in steps of `0.001`. The analitical solution is `13.5`.
 ## Earth and Moon simulation
 This simulation uses expression templates to efficiently calcultate the position of Earth and Moon in space (using velocity Verlet's method),
 while maintaining the readability of code using expression templates for operations on vectors.
@@ -48,6 +58,6 @@ pyplot.show()
 
 
     
-![png](README_files/README_1_0.png)
+![png](readme_notebook_files/readme_notebook_1_0.png)
     
 

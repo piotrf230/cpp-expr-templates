@@ -6,3 +6,4 @@ outputs
 *.vcxproj*
 
 /earth-moon
+/func-expr
